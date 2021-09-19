@@ -1,0 +1,54 @@
+<div class="head">
+    <div class="container">
+      <header class="header">
+        <div class="header__logo">
+          <a href="#"><img src="img/logo.png" alt="logo"></a>
+
+        </div>
+        <div class="header__block">
+          <div class="header__official">Единый реестр инвестиционных советников Банка России
+          </div>
+          <nav class="nav header__nav">
+            <ul class="nav__list">
+              <li class="nav__item">Оптимальный портфель</li>
+              <li class="nav__item">О нас</li>
+              <li class="nav__item">Услуги</li>
+              <li class="nav__item">Контакты</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__block">
+          <div class="header__phone"><a href="tel:+79990009070">+7 (999) 000-90-70</a></div>
+          <button class="btn header__btn">Личный кабинет</button>
+        </div>
+      </header>
+    </div>
+
+
+
+  </div>
+
+
+
+<!-- <header class="header">
+      <div class="container">
+        <div class="header__logo"><img src="" alt="logo"></div>
+        <div class="header__block">
+          <div class="header__official">Единый реестр инвестиционных советников Банка России
+          </div>
+          <nav class="nav header__nav">
+            <ul class="nav__list">
+              <li class="nav__item">Оптимальный портфель</li>
+              <li class="nav__item">О нас</li>
+              <li class="nav__item">Услуги</li>
+              <li class="nav__item">Контакты</li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header__block">
+          <div class="header__phone"><a href="tel:+79990009070">+7 (999) 000-90-70</a></div>
+          <button class="btn header__btn">Личный кабинет</button>
+        </div>
+      </div>
+    </header> -->

@@ -1,0 +1,161 @@
+.hero
+  min-height: 800px
+  // background: url('../../img/bg/squares.png') top (left/891px 758px) no-repeat, url('../../img/bg/squares.png') bottom (right/891px 758px) no-repeat
+  background: url('../../img/bg/squares.png') 3% (top/891px 758px) no-repeat, url('../../img/bg/squares.png') 150% (123px/891px 758px) no-repeat, url('../../img/bg/lines.png') center (60%/contain) no-repeat
+  // background: url('../../img/bg/hero_all.png') left (top/cover) no-repeat
+  // background-image: image-set(url('../../img/bg/hero_all.png') 1x)
+  overflow: hidden
+  padding: 14px 0
+  &__wrapper
+    display: flex
+    padding-left: 20px
+  &__title
+    font-family: Playfair Display
+    font-style: normal
+    font-weight: 400
+    font-size: 36px
+    line-height: 48px
+    color: #FFFFFF
+    margin-bottom: 41px
+  &__subtitle
+    position: relative
+    font-style: normal
+    font-weight: 700
+    font-size: 20px
+    line-height: 23px
+    color: #FFFFFF
+    margin-bottom: 41px
+    &::after
+      content: ''
+      position: absolute
+      width: 1060px
+      height: 1px
+      background: #f0ba63
+      left: -70%
+      bottom: -5px
+  &__help
+    display: block
+    font-style: normal
+    font-weight: 700
+    font-size: 21px
+    line-height: 25px
+    color: #F0BA63
+    margin-bottom: 28px
+    .line
+      transform: translateX(-49%)
+    // &::after
+    //   content: ''
+    //   width: 1000px
+    //   border: 1px solid #F0BA63
+  &__list
+    margin-bottom: 18px
+  &__listitem
+    font-weight: 400
+    font-size: 16px
+    line-height: 20px
+    color: #FFFFFF
+    padding: 12px 0
+  &__info
+    position: relative
+    font-weight: 400
+    font-size: 16px
+    line-height: 19px
+    max-width: 470px
+    color: #231F20
+    padding: 7px 0
+    margin-bottom: 55px
+    z-index: 2
+    &::after
+      content: ''
+      height: 100%
+      width: 1060px
+      position: absolute
+      top: 0
+      left: -85%
+      background: linear-gradient(90deg, #FFDF6D -2.18%, rgba(240, 186, 99, 0.63) 83.5%, rgba(240, 186, 99, 0) 100%, rgba(240, 186, 99, 0) 100%)
+      z-index: -1
+    .line__big
+      position: absolute
+      top: 0
+      left: -95%
+      z-index: -1
+    span
+      font-weight: 700
+  &__persons
+    margin-left: 80px
+  &__descr
+    padding-top: 20px
+    max-width: 610px
+  &__btn
+    display: inline-block
+    padding: 15px 25px 13px 25px
+    margin-left: 20px
+    font-size: 21px
+    line-height: 28px
+
+.bg-img
+  width: 100%
+  position: relative
+  &__squares-one
+    position: absolute
+    width: 891px
+    height: 758px
+    left: 30px
+    top: 0
+    // top: 50%
+    // background: url('../../img/bg/squares.png') center (center/cover) no-repeat
+    z-index: -1
+.persons
+  &__wrap
+    position: relative
+    display: flex
+    align-items: center
+    .line
+      margin-top: 60px
+      // position: absolute
+      // bottom: 15%
+      // left: 75%
+  &__vladimir
+    margin-bottom: 170px
+    .persons__img
+      width: 226px
+      height: 244px
+      img
+        width: 100%
+  &__alexey
+    .persons__img
+      width: 268px
+      height: 230px
+      img
+        width: 100%
+  &__name
+    font-family: Playfair Display
+    font-style: normal
+    font-weight: normal
+    font-size: 21px
+    line-height: 28px
+    color: #FFFFFF
+    margin-bottom: 10px
+  &__pos
+    width: 225px
+    font-weight: 400
+    font-size: 16px
+    line-height: 19px
+    color: #858585
+    &::after
+      content: ''
+      height: 1px
+      width: 995px
+      position: absolute
+      bottom: -75%
+      left: 0
+      background: linear-gradient(90deg, #FFDF6D -2.18%, rgba(240, 186, 99, 0.63) 83.5%, rgba(240, 186, 99, 0) 100%, rgba(240, 186, 99, 0) 100%)
+      // z-index: -1
+  &__info
+    position: absolute
+    top: 31%
+    left: 75%
+    .line
+      // position: absolute
+      // bottom: 15%
+      // left: 75%

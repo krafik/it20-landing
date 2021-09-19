@@ -1,0 +1,178 @@
+.bg__offer
+  position: absolute
+  left: 0
+  right: 0
+  top: 15px
+  bottom: 0
+.diff-way
+  position: relative
+  padding: 107px 0 0 0
+  overflow: hidden
+  background: url(../../img/bg/squares.png) 11% 11%/891px 758px no-repeat,url(../../img/bg/squares_180.png) 96% 42%/891px 758px no-repeat
+  &__wrapper
+    display: flex
+    flex-direction: column
+  &__title
+    text-align: center
+    margin-bottom: 88px
+  &__list
+    margin-bottom: 125px
+  &__item
+    display: flex
+    &:not(:last-child)
+      margin-bottom: 95px
+      .diff-way__numb
+        &::after
+          content: ''
+          width: 1px
+          position: absolute
+          background: #F0BA63
+          top: 88%
+          left: 50%
+          transform: translateX(-50%)
+          z-index: 5
+    &:first-child
+      .diff-way__numb
+        &::after
+          height: 50%
+    &:nth-child(2)
+      .diff-way__numb
+        &::after
+          height: 68%
+          top: 60%
+    &-title
+      font-family: Playfair Display
+      font-weight: 400
+      font-size: 21px
+      line-height: 28px
+      color: #F0BA63
+      margin-bottom: 25px
+  &__numb
+    flex-basis: 50%
+    position: relative
+    text-align: center
+    span
+      margin-top: 28px
+      font-family: Playfair Display
+      font-weight: 400
+      font-size: 131.143px
+      line-height: 175px
+      color: #F0BA63
+  &__text-wrap
+    flex-basis: 50%
+  &__descr
+    max-width: 414px
+    font-weight: 400
+    font-size: 16px
+    line-height: 20px
+    color: #FFFFFF
+    span
+      color: #F0BA63
+    p
+      &:not(:last-child)
+        margin-bottom: 25px
+  &__offer
+    //  background: url(../../img/bg/squares.png) 11% 11%/891px 758px no-repeat,url(../../img/bg/squares_180.png) 96% 42%/891px 758px no-repeat
+    position: relative
+    min-height: 394px
+    width: 1057px
+    background: linear-gradient(-200.18deg, #FFD37C 18.61%, #FFD058 50.46%, #FFC34E 79.47%)
+    margin: 0 auto 145px auto
+    color: #231F20
+    text-align: center
+    padding: 55px 160px 48px 160px
+    font-weight: 400
+    span
+      font-weight: 700
+    &::before
+      content: ''
+      position: absolute
+      height: 104px
+      width: 127%
+      left: 50%
+      transform: translateX(-50%)
+      background: linear-gradient(90deg, rgba(240, 186, 99, 0) -2.18%, #FFD130 52.1%, rgba(255, 209, 48, 0) 100%)
+      z-index: -1
+    &::after
+      content: ''
+      position: absolute
+      box-sizing: content-box
+      top: 50%
+      transform: translate(-50%, -50%)
+      left: 50%
+      width: 1146px
+      height: 348px
+      border: 1px solid #F0BA63
+    &-title
+      position: relative
+      font-family: Playfair Display
+      font-weight: 400
+      font-size: 36px
+      line-height: 48px
+      margin-bottom: 15px
+      z-index: 2
+      &::after
+        content: ''
+        position: absolute
+        width: 150%
+        left: 50%
+        transform: translateX(-50%)
+        bottom: -5px
+        height: 1px
+        // color: #231F20
+        background: linear-gradient(90deg, rgba(240, 186, 99, 0) 6.33%, #1A1717 44.12%, #1A1717 60.09%, rgba(240, 186, 99, 0) 92.02%)
+    &-descr //,&-for-who, &-task
+      position: relative
+      margin-bottom: 20px
+      font-size: 13px
+      line-height: 20px
+      z-index: 2
+    &-for-who
+      position: relative
+      margin-bottom: 20px
+      font-size: 16px
+      line-height: 20px
+      z-index: 2
+    &-task
+      position: relative
+      margin-bottom: 30px
+      font-size: 16px
+      line-height: 20px
+      z-index: 2
+    &-btn
+      display: inline-block
+      position: relative
+      font-size: 21px
+      line-height: 28px
+      border: 2px solid #231F20
+      color: #231F20
+      padding: 15px 25px
+      z-index: 2
+  &__composition
+    position: relative
+    margin-bottom: 56px
+    &-title
+      position: absolute
+      // font-size: 36px
+      // line-height: 48px
+      max-width: 600px
+      right: 0
+      text-align: right
+    //   color: #FFFFFF
+    &-list
+      list-style-type: none
+      display: flex
+      align-items: flex-end
+      padding: 0 20px
+    &-item
+      flex-basis: 25%
+      font-weight: 400
+      font-size: 16px
+      line-height: 20px
+      &:not(:last-child)
+        margin-right: 65px
+      span
+        color: #F0BA63
+      .title
+        color: #fff
+        font-weight: 700

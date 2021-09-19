@@ -1,0 +1,46 @@
+.faq
+  padding: 103px 0 116px 0
+  background: url(../../img/bg/squares.png) 7% 1%/891px 758px no-repeat,url(../../img/bg/squares_180.png) 96% 71%/891px 758px no-repeat
+  &__wrapper
+    padding: 0 98px
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__title
+    margin-bottom: 60px
+  &__questions
+    list-style-type: none
+    padding: 0
+    width: 100%
+    margin-bottom: 56px
+  &__question
+    font-size: 16px
+    line-height: 20px
+    border-bottom: 1px solid #858585
+    &-answer
+      display: none
+    &-inner
+      padding: 20px 0
+      display: flex
+      align-items: center
+      justify-content: space-between
+    
+    &-expand
+      width: 25px
+      height: 25px
+      margin-top: 25px
+      &:hover
+        cursor: pointer
+      span
+
+        display: block
+        background: #F0BA63
+        width: 100%
+        height: 1px
+        &:nth-child(2)
+          transform: rotate(90deg)
+
+  &__btn
+    padding: 15px 25px
+    font-size: 21px
+    line-height: 28px
